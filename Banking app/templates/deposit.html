@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deposit Funds</title>
+</head>
+<body>
+    <h1>Deposit Funds</h1>
+    <form action="/deposit" method="POST">
+        <label for="amount">Deposit Amount:</label>
+        <input type="number" name="amount" id="amount" required>
+        <button type="submit">Deposit</button>
+    </form>     
+    <a href="{{ url_for('user_dashboard') }}">Back to Dashboard</a>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pay Someone</title>
+</head>
+<body>
+    <h1>Pay Someone</h1>
+    <form method="POST" action="{{ url_for('pay') }}">
+        <input type="text" name="recipient_id" placeholder="Recipient ID" required>
+        <input type="number" name="amount" placeholder="Amount" required>
+        <button type="submit">Pay</button>
+    </form>
+    <div>
+        <a href="{{ url_for('user_dashboard') }}">
+            <button>Back to Dashboard</button>
+        </a>
+    </div>    
+</body>
+</html>

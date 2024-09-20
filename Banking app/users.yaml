@@ -1,0 +1,22 @@
+people:
+- age: 14
+  balance: 4100.0
+  gender: Male
+  id: Om_K@fam
+  mobile_no.: 9045133884
+  name: Om
+  password: OmGod@2010
+- age: 11
+  balance: 505.0
+  gender: male
+  id: aadi@fam
+  mobile_no.: 9084001012
+  name: Aadi
+  password: passwor
+- age: '33'
+  balance: 0.0
+  gender: Male
+  id: david@fam
+  mobile_no.: '1234567890'
+  name: David
+  password: Password@david
